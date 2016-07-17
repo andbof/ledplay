@@ -1,0 +1,17 @@
+Ledplay is a small project aimed as a childrens toy. It uses a Cortex M0+
+(Kinetis KE04, MKE04Z8VWJ4) to light button leds in binary order, waiting for
+them to be pressed. When a complete number has been pressed, it progresses to
+the next, until all have been exhausted. It then resets from one.
+
+Copyright (C) 2016 Andreas Bofjäll <andreas@gazonk.org>, see LICENSE for
+licensing details.
+
+SCHEMATICS AND PCB
+
+  Schematic and PCB are made in Kicad. The PCB is a four layer board (mostly
+  because I wanted to play with multilayer boards).
+
+COMPILING
+
+  Enter the src directory and run "make". You need a standard gcc arm toolchain
+  (arm-none-eabi-*) installed, but nothing else. Ledplay does not use CMSIS.
