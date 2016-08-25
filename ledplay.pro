@@ -1,4 +1,4 @@
-update=Sun 17 Jul 2016 08:39:11 PM CEST
+update=Tue 23 Aug 2016 10:26:50 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -139,3 +139,13 @@ LibName107=/home/jab/src/kicad-library/library/Worldsemi
 LibName108=/home/jab/src/kicad-library/library/Xicor
 LibName109=/home/jab/src/kicad-library/library/xilinx
 LibName110=/home/jab/src/kicad-library/library/Zilog
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
