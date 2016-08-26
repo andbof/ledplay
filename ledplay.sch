@@ -80,6 +80,7 @@ LIBS:video
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
+LIBS:ledplay-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -579,7 +580,7 @@ F 1 "PWRCON_01X02" V 1500 5500 50  0000 C CNN
 F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight" H 1400 5500 50  0001 C CNN
 F 3 "" H 1400 5500 50  0000 C CNN
 	1    1400 5500
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L +BATT #PWR018
