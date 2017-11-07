@@ -6,6 +6,18 @@ the next, until all have been exhausted. It then resets from one.
 Copyright (C) 2016 Andreas Bofjäll <andreas@gazonk.org>, see LICENSE for
 licensing details.
 
+DESIGN RATIONALE
+
+  Power efficiency was paramount, but I still wanted to retain programmability
+  and flexibility for future use cases. The whole circuit is running at around
+  130 uA when no leds are lit, giving it a runtime of about 1 to 1.5 years on
+  two double AA batteries. There are no current limiting resistors for the leds
+  and the led dc-dc drives them using constant voltage, but they won't be lit
+  long enough for their resistance drop to become a problem.
+
+  The led dc-dc is a SEPIC because originally, the leds would be driven with a
+  lower voltage, but they turned out to be too dim.
+
 SCHEMATICS AND PCB
 
   Schematic and PCB are made in Kicad. The PCB is a four layer board (mostly
